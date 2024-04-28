@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Revisão de LPAR I</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Cadastro</h1>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br>
+            <button type="submit" id="botao">Salvar</button>
+            <button type="reset" id="limpar">Limpar</button>
+        </form>
+        <table id="tbl-dados">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Opções</th>
+                </tr>
+            </thead>
+            <tbody id="tbl-corpo">
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" id="tbl-rodape">Não existem dados cadastrados.</td>
+                    <!--colspan une colunas transformando em uma só-->
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+<script src="js/script.js"></script>
+
+</html>
